@@ -1,5 +1,7 @@
 # travi
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/travi/npm-travi.svg)](https://greenkeeper.io/)
+
 Matt Travi
 
 [![npm](https://img.shields.io/npm/v/@travi/npm-travi.svg?maxAge=2592000)](https://www.npmjs.com/package/@travi/npm-travi)
