@@ -1,2 +1,35 @@
 {
+  "meta": {"format": "FRESH@0.1.0"},
+  "name": "Matt Travi",
+  "info": {
+    "label": "Full-Stack JavaScript Engineer",
+    "class": "Software Engineer",
+    "brief": "Passionate about front-end, APIs, and continuous deployment",
+    "image": "https://secure.gravatar.com/avatar/552ffda146c8a19730e4e9a27dafb749?size=800"
+  },
+  "contact": {
+    "website": "https://matt.travi.org"
+  },
+  "social": [
+    {
+      "network": "GitHub",
+      "user": "travi",
+      "url": "https://github.com/travi"
+    },
+    {
+      "network": "Twitter",
+      "user": "mtravi",
+      "url": "https://twitter.com/mtravi"
+    },
+    {
+      "network": "LinkedIn",
+      "user": "matttravi",
+      "url": "https://www.linkedin.com/in/matttravi"
+    },
+    {
+      "network": "Stack Overflow Careers",
+      "user": "travi",
+      "url": "https://careers.stackoverflow.com/travi"
+    }
+  ]
 }

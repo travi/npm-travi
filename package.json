@@ -3,7 +3,7 @@
   "description": "Matt Travi",
   "license": "MIT",
   "main": "travi.json",
-  "author": "Matt Travi",
+  "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
   "repository": "travi/npm-travi",
   "bugs": "https://github.com/travi/npm-travi/issues",
   "homepage": "https://github.com/travi/npm-travi#readme",
