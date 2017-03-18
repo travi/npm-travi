@@ -1,3 +1,10 @@
 language: node_js
 notifications:
   email: false
+after_success: npm run semantic-release
+branches:
+  except:
+    - "/^v\\d+\\.\\d+\\.\\d+$/"
+env:
+  global:
+    secure: iNB1AWGsZydB+kkMU6DTIReBLecyl3JgUc4/Uk/d+ZyUHdVgpJQxfnBsCQkCmq8fXaVIPtpHaFmdUP68gbKiqXCz4FshbOjHu6UBWwCeYqEaEkWbj86Xz+dqEf3zIQcS7f6ZprIohGx9UnbrSSGusQw9LW8s7MU+1WyXO8bcFl0+jr3WuOZ7rRjUt6gbIAk1dnq3UdL9Y1vq1f7ZLd/UTZ4QLnZs/XuDo9j7sfeWaC3BIidSqLk/BTdoB1oo+b+Tr5mX8saCFtjtC9JhJAWEpks3gPkRS+sD2ohO9P9c9wIGKDn1i2HyeLb8IxGl6ZSK1fM8rdBxy555sVrz3Ddk8B+TblpedKdJE7z62RXppo/eAhbE0cjLWW2WcHUDYtEi7N3Pse6Xl88/ekbNritQh5UwASS52BuIs6glw9InRwXZA4V/eqJcYX2EQ5ewrC5TZBeQ4YmwGRsAlMfewLibgIusMd6X7SUDs4MfQvIfFyTXzEx4wyDr7FIGqCucCsdqb/M2V6OWZ/GDkRLtLj4zmtxZRgNQB30CPKE2wx3olMW/us52SEY51BmPQSknnMemwOjzJ66u8d4DSwah4e93LjBRX+mzRGaFncVKKscfdn7riotUT+Ol1/MgUaILVpIVp0z2zNRA6ztwKYsOSHN2eWAM62rjjmshV06iGa9CdXg=

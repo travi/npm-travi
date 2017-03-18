@@ -2,6 +2,7 @@
   "name": "travi",
   "description": "Matt Travi",
   "license": "MIT",
+  "version": "0.0.0-semantically-released",
   "main": "travi.json",
   "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
   "repository": "travi/npm-travi",
@@ -12,7 +13,9 @@
     "lint:json": "jsonlint travi.json",
     "test": "run-s lint:*",
     "commitmsg": "validate-commit-msg",
-    "precommit": "npm test"
+    "precommit": "npm test",
+    "preversion": "npm test",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "config": {
     "commitizen": {
@@ -26,6 +29,7 @@
     "jsonlint": "1.6.2",
     "markdownlint-cli": "0.2.0",
     "npm-run-all": "4.0.2",
+    "semantic-release": "6.3.2",
     "validate-commit-msg": "2.11.2"
   }
 }
