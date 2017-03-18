@@ -2,12 +2,14 @@
   "name": "travi",
   "description": "Matt Travi",
   "license": "MIT",
+  "main": "travi.json",
   "author": "Matt Travi",
   "repository": "travi/npm-travi",
   "bugs": "https://github.com/travi/npm-travi/issues",
   "homepage": "https://github.com/travi/npm-travi#readme",
   "scripts": {
     "lint:md": "globstar --node -- markdownlint **/*.md",
+    "lint:json": "jsonlint travi.json",
     "test": "run-s lint:*",
     "commitmsg": "validate-commit-msg",
     "precommit": "npm test"
@@ -21,6 +23,7 @@
     "cz-conventional-changelog": "2.0.0",
     "globstar": "1.0.0",
     "husky": "0.13.2",
+    "jsonlint": "1.6.2",
     "markdownlint-cli": "0.2.0",
     "npm-run-all": "4.0.2",
     "validate-commit-msg": "2.11.2"
