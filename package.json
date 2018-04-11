@@ -29,7 +29,7 @@
     "jsonlint": "1.6.3",
     "markdownlint-cli": "0.8.1",
     "npm-run-all": "4.1.2",
-    "semantic-release": "15.1.5",
+    "semantic-release": "15.1.6",
     "validate-commit-msg": "2.14.0"
   }
 }
