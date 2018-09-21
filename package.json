@@ -11,7 +11,7 @@
   "scripts": {
     "lint:md": "globstar --node -- markdownlint **/*.md",
     "lint:json": "jsonlint travi.json",
-    "lint:schema": "hackmyresume VALIDATE travi.json",
+    "lint:schema": "hackmyresume VALIDATE --assert travi.json",
     "test": "run-s lint:*",
     "commitmsg": "validate-commit-msg",
     "precommit": "npm test",
