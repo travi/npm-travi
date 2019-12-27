@@ -1,11 +1,6 @@
-language: node_js
+version: ~> 1.0
 notifications:
   email: false
-branches:
-  except:
-    - "/^v\\d+\\.\\d+\\.\\d+$/"
-install: case $TRAVIS_BRANCH in greenkeeper*) npm i;; *) npm ci;; esac;
-deploy:
-  provider: script
-  skip_cleanup: true
-  script: npx semantic-release
+import:
+  - source: form8ion/.travis-ci:node.yml
+  - source: travi/.travis-ci:authenticated-semantic-release.yml
