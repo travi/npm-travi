@@ -1,6 +1,6 @@
 # travi
 
-Matt Travi
+Details about me, following the [FRESH standard](https://github.com/fresh-standard/FRESCA)
 
 <!--status-badges start -->
 
