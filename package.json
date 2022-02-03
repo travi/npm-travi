@@ -13,7 +13,8 @@
     "lint:json": "jsonlint travi.json",
     "lint:schema": "hackmyresume VALIDATE --assert travi.json",
     "test": "run-s lint:*",
-    "preversion": "npm test"
+    "preversion": "npm test",
+    "prepare": "husky install"
   },
   "config": {
     "commitizen": {
@@ -29,6 +30,5 @@
     "markdownlint-cli": "0.30.0",
     "npm-run-all": "4.1.5",
     "validate-commit-msg": "2.14.0"
-  },
-  "dependencies": {}
+  }
 }
