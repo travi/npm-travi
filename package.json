@@ -12,6 +12,7 @@
     "lint:md": "remark . --frail",
     "lint:json": "jsonlint travi.json",
     "lint:schema": "hackmyresume VALIDATE --assert travi.json",
+    "generate:md": "remark . --output",
     "test": "run-s lint:*",
     "preversion": "npm test",
     "prepare": "husky install"
