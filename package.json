@@ -29,7 +29,7 @@
     "husky": "9.0.11",
     "jsonlint": "1.6.3",
     "npm-run-all2": "6.1.2",
-    "remark-cli": "12.0.0",
+    "remark-cli": "12.0.1",
     "remark-preset-lint-travi": "6.0.4",
     "validate-commit-msg": "2.14.0"
   }
