@@ -28,7 +28,7 @@
     "hackmyresume": "1.8.0",
     "husky": "9.1.6",
     "jsonlint": "1.6.3",
-    "npm-run-all2": "6.2.6",
+    "npm-run-all2": "7.0.0",
     "remark-cli": "12.0.1",
     "remark-preset-lint-travi": "6.0.5",
     "validate-commit-msg": "2.14.0"
